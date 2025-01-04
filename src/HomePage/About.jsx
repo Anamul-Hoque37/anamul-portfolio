@@ -1,10 +1,10 @@
 import React from 'react';
 import img from '../assets/images/66605.jpg'
 
-const Abouts = () => {
+const About = () => {
     return (
         <div>
-            <section id="about-me" className="bg-gradient-to-r from-gray-100 via-gray-200 to-gray-300 py-20">
+            <section id="about-me" className="bg-gradient-to-r from-base-200 via-base-200 to-base-200 py-10">
                 <div className="w-10/12 mx-auto px-2 flex flex-col-reverse justify-center items-center gap-12">
                     {/* About Content */}
                     <div className="text-center">
@@ -15,7 +15,7 @@ const Abouts = () => {
                             Hi! I'm <span className="font-bold text-indigo-500">Anamul Hoque</span>, a dedicated and creative
                             <span className="font-bold text-indigo-500"> Frontend Web Developer</span>. I love crafting meaningful
                             experiences and solving real-world problems through my expertise in
-                            <span className="font-bold text-indigo-500"> [Your Skills]</span>.
+                            <span className="font-bold text-indigo-500"> Web Development</span>.
                         </p>
                         <p className="text-gray-600 text-lg mb-6">
                             When I’m not working, I enjoy <span className="italic">traveling</span>, exploring
@@ -43,4 +43,4 @@ const Abouts = () => {
     );
 };
 
-export default Abouts;
+export default About;

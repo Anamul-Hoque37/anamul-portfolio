@@ -7,14 +7,14 @@ import img from '../assets/images/66605.jpg';
 
 const Banner = () => {
     return (
-        <div className='py-4'>
-            <div className="hero bg-base-200 min-h-screen">
-                <div className="hero-content sm:px-6 md:px-10 flex-col lg:flex-row-reverse">
+        <div className='border-y-2'>
+            <div className="bg-base-200 py-6">
+                <div className=" px-8 sm:px-8 md:px-10 flex justify-center items-center flex-col md:flex-row-reverse">
                     <img
                         src={img}
-                        className="max-w-sm w-1/2 rounded-lg shadow-2xl" />
-                    <div className='w-1/2'>
-                        <h1 className="text-5xl font-bold">Frontend Developer</h1>
+                        className="max-w-sm w-full md:w-1/2 justify-center items-center text-center rounded-lg shadow-2xl"/>
+                    <div className='w-full md:w-1/2 flex flex-col justify-center items-center'>
+                        <h1 className="text-5xl font-bold">Front-End Developer</h1>
                         <p className="py-6">
                             My goal is to create visually stunning and user-friendly web experiences that merge creativity with functionality. I’m excited to learn, grow, and contribute to building better digital spaces.
                         </p>
