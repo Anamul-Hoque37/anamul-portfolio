@@ -16,54 +16,54 @@ const Skills = () => {
     return (
         <div id="skills" className='flex flex-col justify-center items-center border-2'>
             <h1 className='text-4xl font-bold py-4'>Skills</h1>
-            <div class="w-11/12 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-between ">
-                <div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
-                    <img alt="" src={NodeJs} class="w-12" />
-                    <h4 class="text-md ml-4">NodeJS</h4>
+            <div className="w-11/12 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-between ">
+                <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+                    <img alt="" src={NodeJs} className="w-12" />
+                    <h4 className="text-md ml-4">NodeJS</h4>
                 </div>
-                <div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
-                    <img alt="" src={Express} class="w-12" />
-                    <h4 class="text-md ml-4">Express</h4>
+                <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+                    <img alt="" src={Express} className="w-12" />
+                    <h4 className="text-md ml-4">Express</h4>
                 </div>
-                <div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
-                    <img alt="" src={Native} class="w-12" />
-                    <h4 class="text-md ml-4">React Native</h4>
+                <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+                    <img alt="" src={Native} className="w-12" />
+                    <h4 className="text-md ml-4">React Native</h4>
                 </div>
-                <div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
-                    <img alt="" src={HTML} class="w-12" />
-                    <h4 class="text-md ml-4">HTML</h4>
+                <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+                    <img alt="" src={HTML} className="w-12" />
+                    <h4 className="text-md ml-4">HTML</h4>
                 </div>
-                <div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
-                    <img alt="" src={CSS} class="w-12" />
-                    <h4 class="text-md ml-4">CSS</h4>
+                <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+                    <img alt="" src={CSS} className="w-12" />
+                    <h4 className="text-md ml-4">CSS</h4>
                 </div>
-                <div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
-                    <img alt="" src={Javascript} class="w-12" />
-                    <h4 class="text-md ml-4">Javascript</h4>
+                <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+                    <img alt="" src={Javascript} className="w-12" />
+                    <h4 className="text-md ml-4">Javascript</h4>
                 </div>
-                <div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
-                    <img alt="" src={Tailwind} class="w-12" />
-                    <h4 class="text-md ml-4">Tailwind CSS</h4>
+                <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+                    <img alt="" src={Tailwind} className="w-12" />
+                    <h4 className="text-md ml-4">Tailwind CSS</h4>
                 </div>
-                <div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
-                    <img alt="" src={ReactImg} class="w-12" />
-                    <h4 class="text-md ml-4">React</h4>
+                <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+                    <img alt="" src={ReactImg} className="w-12" />
+                    <h4 className="text-md ml-4">React</h4>
                 </div>
-                <div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
-                    <img alt="" src={Mongo} class="w-12" />
-                    <h4 class="text-md ml-4">Mongo DB</h4>
+                <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+                    <img alt="" src={Mongo} className="w-12" />
+                    <h4 className="text-md ml-4">Mongo DB</h4>
                 </div>
-                <div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
-                    <img alt="" src={Git} class="w-12" />
-                    <h4 class="text-md ml-4">Git</h4>
+                <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+                    <img alt="" src={Git} className="w-12" />
+                    <h4 className="text-md ml-4">Git</h4>
                 </div>
-                <div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
-                    <img alt="" src={Firebase} class="w-12" />
-                    <h4 class="text-md ml-4">Firebase</h4>
+                <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+                    <img alt="" src={Firebase} className="w-12" />
+                    <h4 className="text-md ml-4">Firebase</h4>
                 </div>
-                <div class="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
-                    <img alt="" src={vite} class="w-12" />
-                    <h4 class="text-md ml-4">Vite</h4>
+                <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">
+                    <img alt="" src={vite} className="w-12" />
+                    <h4 className="text-md ml-4">Vite</h4>
                 </div>
             </div>
         </div>
