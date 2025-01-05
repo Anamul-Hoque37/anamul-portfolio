@@ -3,8 +3,8 @@ import React from 'react';
 const Navbar = () => {
 
     return (
-        <div className='sticky top-0 z-30 opacity-50'>
-            <div className="navbar bg-emerald-300 border rounded-md">
+        <div className='sticky top-0 z-30'>
+            <div className="navbar bg-sky-600 bg-opacity-50 border-slate-600 rounded-md">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -41,7 +41,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-primary hover:bg-green-600">Resume Download</a>
+                    <a href="https://docs.google.com/document/d/1iWL00z83gQyVhYfLJvlfCnVU75jfUD7MPLoJsa5Ew9Y/edit?usp=sharing"><button className="btn btn-primary hover:bg-green-600">Resume Download</button></a>
                 </div>
             </div>
         </div>

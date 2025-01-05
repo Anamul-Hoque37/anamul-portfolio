@@ -10,6 +10,9 @@ import Home from './Home';
 import ErrorPage from './ErrorPage';
 import Resume from './Resume';
 import Root from './Root';
+import Tutor from './Details/Tutor';
+import Council from './Details/Council';
+import Sports from './Details/Sports';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +27,18 @@ const router = createBrowserRouter([
       {
         path: "resume",
         element: <Resume></Resume>
+      },
+      {
+        path: "tutor",
+        element: <Tutor></Tutor>
+      },
+      {
+        path: "council",
+        element: <Council></Council>
+      },
+      {
+        path: "sports",
+        element: <Sports></Sports>
       },
     ],
   },

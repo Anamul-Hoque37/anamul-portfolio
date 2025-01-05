@@ -45,12 +45,27 @@ const Contacts = () => {
     };
     return (
         <div>
-            <section id="contact" className="bg-gray-100 py-4 px-6">
+            <section id="contact" className="bg-[url('https://i.ibb.co.com/Rhst3nr/download-14.jpg')] bg-cover bg-center py-4 px-6">
                 <h2 className="text-4xl font-bold mb-6 text-center">Contact Me</h2>
                 <div className="w-11/12 mx-auto flex flex-col-reverse md:flex-row justify-around bg-white shadow-lg rounded-lg p-6">
                     <div className='w-full md:w-2/4'>
                         {status && <p className="text-center text-green-500 mb-4">{status}</p>}
                         <form onSubmit={handleSubmit}>
+                            <div className="mb-4">
+                                <label htmlFor="senderEmail" className="block text-sm font-medium text-gray-700">
+                                    Your Name
+                                </label>
+                                <input
+                                    type="text"
+                                    id="senderName"
+                                    name="senderName"
+                                    value={formData.senderName}
+                                    onChange={handleChange}
+                                    required
+                                    className="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                                    placeholder="Enter your Name"
+                                />
+                            </div>
                             <div className="mb-4">
                                 <label htmlFor="senderEmail" className="block text-sm font-medium text-gray-700">
                                     Your Email
@@ -63,7 +78,7 @@ const Contacts = () => {
                                     onChange={handleChange}
                                     required
                                     className="w-full mt-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                                    placeholder="Enter your email"
+                                    placeholder="Enter your Email"
                                 />
                             </div>
                             <div className="mb-4">
@@ -92,6 +107,7 @@ const Contacts = () => {
                     <div className='flex flex-col pb-4 items-center justify-center text-start'>
                         <h1 className='text-2xl font-bold'>Anamul Hoque</h1>
                         <p className='text-base font-medium'>Narayanganj, Bangladesh.</p>
+                        <p className='text-base font-medium'>Contact No: 01737712037</p>
                         <p className='text-base font-medium'>Email: anamul.eee73@gmail.com</p>
                     </div>
                 </div>

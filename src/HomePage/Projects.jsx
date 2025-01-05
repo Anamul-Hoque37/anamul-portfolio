@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
@@ -16,7 +17,7 @@ const Projects = () => {
                         <p>Empowering students with personalized learning, expert guidance, and a supportive environment to achieve their academic goals.</p>
                         <div className="card-actions justify-around">
                             <a href="https://tutor-booking-platform.web.app/" target="_blank"><button className="btn btn-primary bg-green-600">Live Link</button></a>
-                            <button className="btn btn-primary">View Details</button>
+                            <Link to='/tutor'><button className="btn btn-primary">View Details</button></Link>
                         </div>
                     </div>
                 </div>
@@ -31,7 +32,7 @@ const Projects = () => {
                         <p>Unleashing Potential, Inspiring Excellence – Aaraf Sports: Your Partner in Every Sporting Journey!</p>
                         <div className="card-actions justify-around">
                             <a href="https://aaraf-sports.web.app/" target="_blank"><button className="btn btn-primary bg-green-600">Live Link</button></a>
-                            <button className="btn btn-primary">View Details</button>
+                            <Link to='/council'><button className="btn btn-primary">View Details</button></Link>
                         </div>
                     </div>
                 </div>
@@ -46,7 +47,7 @@ const Projects = () => {
                         <p>Shaping Futures, Unlocking Potential – Next Gen Career: Your Pathway to Success in Tomorrow’s World.</p>
                         <div className="card-actions justify-around">
                             <a href="https://next-gen-career.web.app/" target="_blank"><button className="btn btn-primary bg-green-600">Live Link</button></a>
-                            <button className="btn btn-primary">View Details</button>
+                            <Link to='/sports'><button className="btn btn-primary">View Details</button></Link>
                         </div>
                     </div>
                 </div>

@@ -7,8 +7,8 @@ import img from '../assets/images/66605.jpg';
 
 const Banner = () => {
     return (
-        <div className='border-y-2'>
-            <div className="bg-base-200 py-6">
+        <div className='border-b-2'>
+            <div className="bg-[url('https://i.ibb.co.com/Rhst3nr/download-14.jpg')] bg-cover bg-center py-6">
                 <div className=" px-8 sm:px-8 md:px-10 flex justify-center items-center flex-col md:flex-row-reverse">
                     <img
                         src={img}
@@ -32,7 +32,7 @@ const Banner = () => {
                                 <img className='w-full h-full' src={lk} alt="Linkedin Icon" /></a>
                             </div>
                         </div>
-                        <button className="btn btn-primary hover:bg-green-600">Resume Download</button>
+                        <a href="https://docs.google.com/document/d/1iWL00z83gQyVhYfLJvlfCnVU75jfUD7MPLoJsa5Ew9Y/edit?usp=sharing"><button className="btn btn-primary hover:bg-green-600">Resume Download</button></a>
                     </div>
                 </div>
             </div>
