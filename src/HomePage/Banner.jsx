@@ -12,10 +12,14 @@ const Banner = () => {
                 <div className=" px-8 sm:px-8 md:px-10 flex justify-center items-center flex-col md:flex-row-reverse">
                     <img
                         src={img}
-                        className="max-w-sm w-full md:w-1/2 justify-center items-center text-center rounded-lg shadow-2xl"/>
+                        className="max-w-sm w-full md:w-1/2 justify-center items-center text-center rounded-lg shadow-2xl" />
                     <div className='w-full md:w-1/2 flex flex-col justify-center items-center'>
-                        <h1 className="text-5xl font-bold">Front-End Developer</h1>
-                        <p className="py-6">
+                        <div className='flex flex-col justify-center items-start'>
+                            <h1 className="text-2xl text-sky-400 font-normal">Hello, I am</h1>
+                            <h1 className="text-5xl font-bold">Anamul Hoque</h1>
+                        </div>
+                        <h1 className="text-3xl py-4 font-medium">Front-End Developer</h1>
+                        <p className="pb-6">
                             My goal is to create visually stunning and user-friendly web experiences that merge creativity with functionality. I’m excited to learn, grow, and contribute to building better digital spaces.
                         </p>
                         <div className='flex gap-4 pb-4'>
@@ -32,7 +36,7 @@ const Banner = () => {
                                 <img className='w-full h-full' src={lk} alt="Linkedin Icon" /></a>
                             </div>
                         </div>
-                        <a href="https://docs.google.com/document/d/1iWL00z83gQyVhYfLJvlfCnVU75jfUD7MPLoJsa5Ew9Y/edit?usp=sharing"><button className="btn btn-primary hover:bg-green-600">Resume Download</button></a>
+                        <a href="https://drive.google.com/file/d/1yrRcyMfWBQ2Ugsdn9kHiFzqmN9kjuEwJ/view?usp=sharing"><button className="btn btn-primary hover:bg-green-600">Resume Download</button></a>
                     </div>
                 </div>
             </div>

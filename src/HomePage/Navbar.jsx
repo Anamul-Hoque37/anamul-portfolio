@@ -30,7 +30,7 @@ const Navbar = () => {
                             <li><a href='#contact'>Contact</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Anamul Hoque</a>
+                    <a href='/' className="btn btn-ghost text-xl">Anamul Hoque</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -41,7 +41,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="https://docs.google.com/document/d/1iWL00z83gQyVhYfLJvlfCnVU75jfUD7MPLoJsa5Ew9Y/edit?usp=sharing"><button className="btn btn-primary hover:bg-green-600">Resume Download</button></a>
+                    <a href="https://drive.google.com/file/d/1yrRcyMfWBQ2Ugsdn9kHiFzqmN9kjuEwJ/view?usp=sharing"><button className="btn btn-primary hover:bg-green-600">Resume Download</button></a>
                 </div>
             </div>
         </div>
