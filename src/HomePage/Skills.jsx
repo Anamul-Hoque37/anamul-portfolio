@@ -14,7 +14,7 @@ import vite from '../assets/icons/icons8-vite-96.png';
 
 const Skills = () => {
     return (
-        <div id="skills" className='flex flex-col justify-center items-center border-2'>
+        <div id="skills" className='flex flex-col justify-center items-center border-t-2'>
             <h1 className='text-4xl font-bold py-4'>Skills</h1>
             <div className="w-11/12 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-between ">
                 <div className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40">

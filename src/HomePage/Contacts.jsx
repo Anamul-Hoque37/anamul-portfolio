@@ -45,7 +45,7 @@ const Contacts = () => {
     };
     return (
         <div>
-            <section id="contact" className="bg-[url('https://i.ibb.co.com/Rhst3nr/download-14.jpg')] bg-cover bg-center py-4 px-6">
+            <section id="contact" className="bg-white py-4 border-t-2 px-6">
                 <h2 className="text-4xl font-bold mb-6 text-center">Contact Me</h2>
                 <div className="w-11/12 mx-auto flex flex-col-reverse md:flex-row justify-around bg-white shadow-lg rounded-lg p-6">
                     <div className='w-full md:w-2/4'>

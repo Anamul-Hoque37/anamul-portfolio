@@ -8,7 +8,7 @@ import img from '../assets/images/66605.jpg';
 const Banner = () => {
     return (
         <div className='border-b-2'>
-            <div className="bg-[url('https://i.ibb.co.com/Rhst3nr/download-14.jpg')] bg-cover bg-center py-6">
+            <div className="bg-white py-6">
                 <div className=" px-8 sm:px-8 md:px-10 flex justify-center items-center flex-col md:flex-row-reverse">
                     <img
                         src={img}

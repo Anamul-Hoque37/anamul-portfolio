@@ -4,7 +4,7 @@ import img from '../assets/images/66605.jpg'
 const About = () => {
     return (
         <div>
-            <section id="about-me" className="bg-[url('https://i.ibb.co.com/Rhst3nr/download-14.jpg')] bg-cover bg-center py-10">
+            <section id="about-me" className="bg-white py-10">
                 <div className="w-10/12 mx-auto px-2 flex flex-col-reverse justify-center items-center gap-12">
                     {/* About Content */}
                     <div className="text-center">
