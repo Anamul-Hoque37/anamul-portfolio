@@ -41,7 +41,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a href="https://drive.google.com/file/d/1yrRcyMfWBQ2Ugsdn9kHiFzqmN9kjuEwJ/view?usp=sharing"><button className="btn btn-primary hover:bg-green-600">Resume Download</button></a>
+                    <a href="https://drive.google.com/file/d/1-_VDA3lcRp7jo9s04h2HrqwKFcOY3P0a/view?usp=sharing"><button className="btn btn-primary hover:bg-green-600">Resume Download</button></a>
                 </div>
             </div>
         </div>
